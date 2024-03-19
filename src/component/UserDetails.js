@@ -21,6 +21,10 @@ const UserDetails = () => {
   const params = useParams();
   const [UserDetails, setUserDetail] = useState();
   // ADD NEW COMMENT HERE
+  // ADD NEW COMMENT HERE
+  // ADD NEW COMMENT HERE
+  // ADD NEW COMMENT HERE
+
   useEffect(() => {
     axios.get(`https://dummyjson.com/users/${params.index}`)
       .then(res => {
