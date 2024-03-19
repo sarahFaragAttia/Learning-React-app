@@ -13,7 +13,6 @@
 
 // }
 
-// export default UserDetails;
 import { useParams } from "react-router-dom";
 import axios from "axios";
 import { useState, useEffect } from 'react';
@@ -21,7 +20,7 @@ import { useState, useEffect } from 'react';
 const UserDetails = () => {
   const params = useParams();
   const [UserDetails, setUserDetail] = useState();
-
+  // ADD NEW COMMENT HERE
   useEffect(() => {
     axios.get(`https://dummyjson.com/users/${params.index}`)
       .then(res => {
