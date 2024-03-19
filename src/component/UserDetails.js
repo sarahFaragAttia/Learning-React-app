@@ -43,9 +43,10 @@ const UserDetails = () => {
 return (
   <div>
     <h1> Customer's Details</h1>
-    <p> Customer's Name :  {UserDetails.firstName} {UserDetails.lastName}</p>
-    <p> Customer's Age:   {UserDetails.age} years old</p>
-    <p> Customer's Address : {UserDetails.address.address} , {UserDetails.address.city}</p>
+    {/* adding ? mean if userdetails exist get firstname */}
+    <p> Customer's Name :  {UserDetails?.firstName} {UserDetails?.lastName}</p>
+    <p> Customer's Age:   {UserDetails?.age} years old</p>
+    <p> Customer's Address : {UserDetails?.address.address} , {UserDetails?.address.city}</p>
   </div>
 )
 }

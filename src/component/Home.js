@@ -55,7 +55,7 @@ const Home = () => {
                 <div className="row justify-content-between m-4 ">
               {SearchedUser&&value?
             
-               <UserFetch username={value} value="sara" />:
+               <UserFetch userName={value}  />:
               
                  UsersData.map((element,index) => {
                         return (
