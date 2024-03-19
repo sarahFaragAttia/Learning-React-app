@@ -24,6 +24,9 @@ const UserDetails = () => {
   // ADD NEW COMMENT HERE
   // ADD NEW COMMENT HERE
   // ADD NEW COMMENT HERE
+  // ADD NEW COMMENT HERE
+  // ADD NEW COMMENT HERE
+
 
   useEffect(() => {
     axios.get(`https://dummyjson.com/users/${params.index}`)
